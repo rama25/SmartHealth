@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690377549086",
+    "project_id": "smarthealth-183513"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690377549086:android:accd1462f28b1f54",
+        "android_client_info": {
+          "package_name": "com.example.rama.smarthealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690377549086-il4p4ecmiknp7qeieib9k718npg2bnsa.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "690377549086-59mepaqs1cnjpm3gm51fgfbv0ar5ams1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rama.smarthealth",
+            "certificate_hash": "117b54d310c40154e9aa12c7f5d2b2d2880d4df5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdTO1K1hn2N0ThoRGP0v8zhsIbIPuryl0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
