@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context="com.example.rama.smarthealth.GraphActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="25dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="Diseases by Age"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ad" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="How much people sleep?"
+                    android:textAlignment="center"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sleep" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="How many people drink?"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alcohol" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="How many people smoke?"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/tobacco" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="How many people exercise?"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/cardio" />
+
+
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

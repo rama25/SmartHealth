@@ -6,54 +6,158 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.rama.smarthealth.MainActivity"
-    android:background="@drawable/heart"
+    android:background="@drawable/backg"
     android:icon="@drawable/heart"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:baselineAligned="false">
 
     <ImageView
         android:id="@+id/prof_pic"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/photo" />
+        android:layout_width="178dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/photo"
+        android:layout_weight="0.4" />
 
 
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Name displayed here"
-        android:textSize="18dp"
-        android:textStyle="bold" />
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="wrap_content"
+        android:layout_width="193dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="5dp"
         android:gravity="center"
+        android:layout_gravity="center"
         android:text="Email displayed here"
-        android:textSize="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
         android:textStyle="bold" />
+
+    <!-- <Button
+         android:id="@+id/button"
+         android:layout_width="110dp"
+         android:layout_height="wrap_content"
+         android:text=" Share It" /> -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Set Alarm"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Upload"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Data"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="25dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Graph"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Analytics"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Diet Plan"
+            android:textColor="#00F9FF"
+            android:textSize="18sp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
 
     <Button
         android:id="@+id/bn_logout"
-        android:layout_width="wrap_content"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="-20dp"
         android:gravity="center"
-        android:text="Logout" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ShareIt" />
+        android:text="Logout"
+        android:textColor="#00F9FF"
+        android:textSize="18sp"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="10dp"/>
 
     <com.google.android.gms.common.SignInButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="-20dp"
         android:layout_marginRight="50dp"
         android:id="@+id/bn_login"
         ></com.google.android.gms.common.SignInButton>

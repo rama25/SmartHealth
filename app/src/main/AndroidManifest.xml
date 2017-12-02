@@ -1,22 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rama.smarthealth">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-feature android:name="android.hardware.camera2"
+        android:required="true"></uses-feature>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@drawable/heart"
+        android:label="GHealth"
+        android:roundIcon="@drawable/heart"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="Alarm"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".photoUploader"
+            android:label="Photo"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <provider
+            android:authorities="com.example.android.FileProvider"
+            android:name="android.support.v4.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+        <activity
+            android:name=".GraphActivity"
+            android:label="Graph"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".DbDetails"
+            android:label="Database"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".MonthlyDisease"
+            android:label="Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".DietPlan"
+            android:label="Diet Plan"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <receiver android:name=".Alarm_Receiver" />
+        <service android:name=".RingtonePlayingService"
+            android:enabled="true"></service>
     </application>
 
 </manifest>

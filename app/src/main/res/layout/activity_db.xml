@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rama.smarthealth.DbDetails"
+    android:background="@drawable/cutebg">
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editText5"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toLeftOf="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:text="EMAIL ID" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="11dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="15dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:layout_marginTop="11dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_below="@+id/editText10"
+        android:layout_marginTop="15dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText11"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignRight="@+id/editText11"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="18dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText12"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_alignRight="@+id/editText12"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_below="@+id/editText12"
+        android:layout_marginTop="16dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText13"
+        android:layout_alignLeft="@+id/editText13"
+        android:layout_alignRight="@+id/editText13"
+        android:layout_alignStart="@+id/editText13"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="13dp"
+        android:ems="8"
+        android:inputType="number"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignTop="@+id/editText8"
+        android:layout_toStartOf="@+id/editText5"
+        android:text="AGE" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText9"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignTop="@+id/editText9"
+        android:layout_toLeftOf="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:text="BLOOD GROUP" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText10"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_alignTop="@+id/editText10"
+        android:text="SLEEP (Hrs)" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText12"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignTop="@+id/editText11"
+        android:layout_toLeftOf="@+id/editText11"
+        android:layout_toStartOf="@+id/editText11"
+        android:text="CARDIO (minutes)" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText13"
+        android:layout_alignEnd="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignTop="@+id/editText12"
+        android:inputType="textMultiLine"
+        android:text="ALCOHOL \n 0(Low)- 3(High)" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText14"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignTop="@+id/editText13"
+        android:layout_toLeftOf="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:inputType="textMultiLine"
+        android:text="TOBACCO \n 0(Low)- 3(High)" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_alignBottom="@+id/editText14"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignTop="@+id/editText14"
+        android:layout_toLeftOf="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:text="DISEASE \n  0 - No disease \n 1 - Asthma \n 2 - Obesity \n 3 - GastroIntestinal \n 4 - Diabetes \n 5 - Heart Disease" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/editText5"
+        android:layout_toStartOf="@+id/editText5"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="15dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape2"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="@drawable/buttonshape2"/>
+
+</RelativeLayout>

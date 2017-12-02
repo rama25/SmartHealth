@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rama.smarthealth.DietPlan"
+    android:background="@drawable/cutebg"
+    android:layout_margin="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Diet Plan"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Height (m)"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/etHeight"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Weight (kg)"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etWeight"
+            android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/bDiet"
+        android:text="Get Diet Plan"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:background="@drawable/buttonshape2"/>
+
+    <TextView
+        android:id="@+id/etOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:maxLines="1000"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context="com.example.rama.smarthealth.MonthlyDisease">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:layout_marginTop="5dp"
+                    android:inputType="none"
+                    android:text="January - Common Cold"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/commoncold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="Febuary - Flu"
+                    android:textAlignment="center"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/flu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:layout_marginTop="5dp"
+                    android:inputType="none"
+                    android:text="March - Rhinitis"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/rhinitis" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:background="#000000"
+                    android:layout_marginTop="5dp"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="April - Asthama"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/asthama" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="May - Heat Rash"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/heatrash" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="June - Chicken Pox"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/pox" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="July - Dengue"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/dengue" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="August - Typhoid"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/typhoid" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="September - Leptospirosis "
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/leptospirosis" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="October - Cholera"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/cholera" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="November - Ameobiosis"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/ameobiosis" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"
+                    android:ems="10"
+                    android:inputType="none"
+                    android:text="December - Malaria"
+                    android:textColor="#00f9ff"
+                    android:textSize="20sp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:srcCompat="@drawable/malaria" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
